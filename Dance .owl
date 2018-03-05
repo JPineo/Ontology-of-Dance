@@ -7,8 +7,482 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/jessicapineo/ontologies/2018/1/untitled-ontology-7">
-        <rdfs:comment>This is an ontologoy about four types of dance and some of their components.</rdfs:comment>
+        <rdfs:comment>This is an ontologoy about three types of dance and some of their components.</rdfs:comment>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000049Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000049Folk_Dance">
+        <rdfs:label xml:lang="en">Dance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000049Folk_Dance"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000060Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000057Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000058Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000059Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Ballet</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000049Folk_Dance"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000057"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000058"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000059"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000060"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000061"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000062"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000063"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000064"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000103"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000104"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000105"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000050Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000107"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">BellyDancing</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000052Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000052Folk_Dance">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000049Folk_Dance"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000021Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000022Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000023Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000024Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">CharachterDance</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000090"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000091"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000092"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000093"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000094"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000041Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000138"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000065"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000139"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Costumes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000097"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000098"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000099"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000100"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000101"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000102"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000014Folk_Music"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000015Folk_Music"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000016Folk_Music"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000017Folk_Music"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000145"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000054Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000148"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Music</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000095"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000051Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000096"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000012Shoes"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000073"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000074"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000055Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000011Shoes"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Footwear</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000088"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000061Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000089"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Bedlah</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000053Folk_Dance"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000042Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000043Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000044Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000045Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000046Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000062Folk_Dance"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000047Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Tutus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000063Folk_Dance -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/ontologies/DANCE0000063Folk_Dance">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/ontologies/DANCE0000063Folk_Dance"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label xml:lang="en">Refernces</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -23,73 +497,11 @@
     
 
 
-    <!-- http://www.pizza.owl/ontologies/DANCE0000001Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000001Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
-        <rdfs:label xml:lang="en">Tutu</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000004Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000004Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">Classical</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000005Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000005Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">Romantic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000006Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000006Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">Pancake</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000007Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000007Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">Platter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000008Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000008Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">American</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000009Tutu -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000009Tutu">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000001Tutu"/>
-        <rdfs:label xml:lang="en">Inverted</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pizza.owl/ontologies/DANCE0000010Shoes -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000010Shoes">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:comment>What is worn on the feet of the dancers.</rdfs:comment>
         <rdfs:label xml:lang="en">Shoes</rdfs:label>
     </owl:Class>
     
@@ -99,7 +511,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000011Shoes">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000010Shoes"/>
-        <rdfs:label xml:lang="en">Point</rdfs:label>
+        <rdfs:comment>A pointe shoe is a ballet shoe that has pink sainted on the outside, with saint ribbons, and a very stiff sole. The point of the shoe is called a box which is made from tightly packed fabrics and paper.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pointe</rdfs:label>
     </owl:Class>
     
 
@@ -108,6 +521,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000012Shoes">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000010Shoes"/>
+        <rdfs:comment>A soft shoe, made from leather. Often they have either has a full sole and some soft shoes have slipt soles.</rdfs:comment>
         <rdfs:label xml:lang="en">Soft</rdfs:label>
     </owl:Class>
     
@@ -117,6 +531,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000013Shoes">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:comment>Music that is used to dance to in this form of dance.</rdfs:comment>
         <rdfs:label xml:lang="en">Music</rdfs:label>
     </owl:Class>
     
@@ -126,6 +541,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000014Folk_Music">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
+        <rdfs:comment>Folk music from Spain.</rdfs:comment>
         <rdfs:label xml:lang="en">Spainish</rdfs:label>
     </owl:Class>
     
@@ -135,6 +551,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000015Folk_Music">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
+        <rdfs:comment>Folk music from Hungary</rdfs:comment>
         <rdfs:label xml:lang="en">Hungarian</rdfs:label>
     </owl:Class>
     
@@ -144,6 +561,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000016Folk_Music">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
+        <rdfs:comment>Folk music from Italy.</rdfs:comment>
         <rdfs:label xml:lang="en">Italian</rdfs:label>
     </owl:Class>
     
@@ -153,25 +571,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000017Folk_Music">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
+        <rdfs:comment>Folk music from Poland</rdfs:comment>
         <rdfs:label xml:lang="en">Polish</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000018Folk_Music -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000018Folk_Music">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
-        <rdfs:label xml:lang="en">Russian</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000019Folk_Music -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000019Folk_Music">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000013Shoes"/>
-        <rdfs:label xml:lang="en">Geogrian</rdfs:label>
     </owl:Class>
     
 
@@ -180,6 +581,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:comment>Types of character dancing.</rdfs:comment>
         <rdfs:label xml:lang="en">Style</rdfs:label>
     </owl:Class>
     
@@ -189,7 +591,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000021Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Czárdás (Hungarian)</rdfs:label>
+        <rdfs:comment>A traditional Hungarian folk dance.</rdfs:comment>
+        <rdfs:label xml:lang="en">Czárdás(Hungarian)</rdfs:label>
     </owl:Class>
     
 
@@ -198,7 +601,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000022Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Mazurk (Polish)</rdfs:label>
+        <rdfs:comment>&quot;Mazurk is a Polsih folk dance, usually to a lively tempo.&quot; (wikipeadia: Mazurka)</rdfs:comment>
+        <rdfs:label xml:lang="en">Mazurk(Polish)</rdfs:label>
     </owl:Class>
     
 
@@ -207,7 +611,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000023Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Tarantella (Italian)</rdfs:label>
+        <rdfs:comment>Is a type of quick pace folk dance from Italy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tarantella(Italian)</rdfs:label>
     </owl:Class>
     
 
@@ -216,43 +621,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000024Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Flamenco (Spainish)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000025Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000025Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Perkhul (Geogrian)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000026Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000026Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Khorumi (Geogrian)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000027Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000027Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Krakowiak (Polish)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000028Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000028Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000020Folk_Dance"/>
-        <rdfs:label xml:lang="en">Seguidilla (Spanish)</rdfs:label>
+        <rdfs:comment>A Spainish folk dance from the southern parts of Spain, Andalusia, Extremadura and Murcia. (Wikipeadia: Flamenco)</rdfs:comment>
+        <rdfs:label xml:lang="en">Flamenco(Spainish)</rdfs:label>
     </owl:Class>
     
 
@@ -261,6 +631,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000030Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+        <rdfs:comment>Where I consulted about my inforamtion.</rdfs:comment>
         <rdfs:label xml:lang="en">References</rdfs:label>
     </owl:Class>
     
@@ -284,38 +655,11 @@
     
 
 
-    <!-- http://www.pizza.owl/ontologies/DANCE0000034Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000034Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Jazz Dance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000035Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000035Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Jazz Music</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/DANCE0000036Folk_Dance -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000036Folk_Dance">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Jazz Genres</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.pizza.owl/ontologies/DANCE0000037Folk_Dance -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000037Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Belly Dance</rdfs:label>
+        <rdfs:label xml:lang="en">BellyDance</rdfs:label>
     </owl:Class>
     
 
@@ -324,7 +668,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000038Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Character Dance</rdfs:label>
+        <rdfs:label xml:lang="en">CharacterDance</rdfs:label>
     </owl:Class>
     
 
@@ -333,7 +677,137 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000039Folk_Dance">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000032Folk_Dance"/>
-        <rdfs:label xml:lang="en">Folk costume</rdfs:label>
+        <rdfs:label xml:lang="en">FolkCostume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000056"/>
+        <rdfs:comment>Similar to a skirt, it is a ballet costume of clothing that is usually made from tulle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tutu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000041Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000041Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000056"/>
+        <rdfs:comment>A piece of clothing that goes around a person&apos;s waste.</rdfs:comment>
+        <rdfs:label xml:lang="en">Skirt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000042Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000042Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>The American tutu, also know as: Balanchine, Karinska and Powderful tutus. This style of this tutu made of loosely sewn tulle.</rdfs:comment>
+        <rdfs:label xml:lang="en">American</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000043Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000043Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>The classical tutu is made from many layers of tulle, there are shorter layers underneither the longer layers on top that sticks out horizontally from the hip.</rdfs:comment>
+        <rdfs:label xml:lang="en">Classical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000044Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000044Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>The inverted tutu is a cross between the classical and romantic tutu. It goes to about mid thigh and is made out of several layers of tulle.</rdfs:comment>
+        <rdfs:label xml:lang="en">InvertedBell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000045Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000045Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>The pancake tutu is a tutu that is supported by a hoop and lays flat, and sits on the hips.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pancake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000046Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000046Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>Platter tutu is similar to a pancake the only difference is that the platter tutu is that it sits at the dancers waste instead if the hips.</rdfs:comment>
+        <rdfs:label xml:lang="en">Platter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000047Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000047Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000040Folk_Dance"/>
+        <rdfs:comment>The romantic tutu is a tutu that comes down to the dancers knees.</rdfs:comment>
+        <rdfs:label xml:lang="en">Romantic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:comment>The types of dance that are apart of the larger branch.</rdfs:comment>
+        <rdfs:label xml:lang="en">Style</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000057Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000057Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance"/>
+        <rdfs:comment>Calssical ballet is the traditionally style of ballet. This style can vary between French, Italian, Russian and Danish. Example of a classical ballet would the Nutcracker and Swan Lake.</rdfs:comment>
+        <rdfs:label xml:lang="en">Classical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000058Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000058Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance"/>
+        <rdfs:comment>Romantic ballet stems from classical ballet, but is more articist in movement. Examples of romantic ballets are La Sylphide and Giselle.</rdfs:comment>
+        <rdfs:label xml:lang="en">Romantic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000059Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000059Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance"/>
+        <rdfs:comment>&quot;Neoclasssical ballet is a style that utilizes classical balley techniqe and vocabulary, but deviates from classical ballet in  its use of the abstract.&quot; (wikipeadia. Ballet: Neoclassical)</rdfs:comment>
+        <rdfs:label xml:lang="en">Neoclassical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/ontologies/DANCE0000060Folk_Dance -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/ontologies/DANCE0000060Folk_Dance">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/DANCE0000056Folk_Dance"/>
+        <rdfs:comment>Comtemporary ballet is a form of ballet that opens itself up to dance styles outside of ballet. For a contemporary ballet, there has to be a strong element of classical ballet techniques must be a partent.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contemporary</rdfs:label>
     </owl:Class>
     
 
@@ -341,6 +815,7 @@
     <!-- http://www.pizza.owl/ontologies/PIZZA_0000034 -->
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000034">
+        <rdfs:comment>A form of self expression through body movement usually to music.</rdfs:comment>
         <rdfs:label xml:lang="en">Dance</rdfs:label>
     </owl:Class>
     
@@ -350,16 +825,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000036">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
+        <rdfs:comment>A French style of dance, theat was preformed for the upper classes.</rdfs:comment>
         <rdfs:label xml:lang="en">Ballet</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000037 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000037">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
-        <rdfs:label xml:lang="en">Jazz</rdfs:label>
     </owl:Class>
     
 
@@ -368,7 +835,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000038">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
-        <rdfs:label xml:lang="en">Belly Dance</rdfs:label>
+        <rdfs:comment>A type dance that is found in the Middle East, and Inida, that involves the movements of the abdomen. The different regions of the Middle East and India have different styles.</rdfs:comment>
+        <rdfs:label xml:lang="en">BellyDance</rdfs:label>
     </owl:Class>
     
 
@@ -377,7 +845,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000039">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000034"/>
-        <rdfs:label xml:lang="en">Character Dance</rdfs:label>
+        <rdfs:comment>Folk dances from part of Europe that are often taught longside ballet.</rdfs:comment>
+        <rdfs:label xml:lang="en">CharacterDance</rdfs:label>
     </owl:Class>
     
 
@@ -386,6 +855,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000041">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:comment>What is worn on the dancers feet.</rdfs:comment>
         <rdfs:label xml:lang="en">Shoes</rdfs:label>
     </owl:Class>
     
@@ -395,6 +865,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000043">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000039"/>
+        <rdfs:comment>Clothing that is worn by the dancer.</rdfs:comment>
         <rdfs:label xml:lang="en">Costume</rdfs:label>
     </owl:Class>
     
@@ -404,6 +875,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000045">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:comment>The types of belly dance.</rdfs:comment>
         <rdfs:label xml:lang="en">Style</rdfs:label>
     </owl:Class>
     
@@ -413,6 +885,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000046">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:comment>The type of music that is used to dance to.</rdfs:comment>
         <rdfs:label xml:lang="en">Music</rdfs:label>
     </owl:Class>
     
@@ -422,6 +895,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000047">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
+        <rdfs:comment>What is worn on the feet of the dancers.</rdfs:comment>
         <rdfs:label xml:lang="en">Shoes</rdfs:label>
     </owl:Class>
     
@@ -431,42 +905,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000048">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000038"/>
-        <rdfs:label xml:lang="en">Costume</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000049 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000049">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
-        <rdfs:label xml:lang="en">Style</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000050 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000050">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
-        <rdfs:label xml:lang="en">Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000051 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000051">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
-        <rdfs:label xml:lang="en">Music</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000052 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000052">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000037"/>
+        <rdfs:comment>Clothing that is worn by the dancer.</rdfs:comment>
         <rdfs:label xml:lang="en">Costume</rdfs:label>
     </owl:Class>
     
@@ -476,6 +915,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000055">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:comment>The music that used to dance to.</rdfs:comment>
         <rdfs:label xml:lang="en">Music</rdfs:label>
     </owl:Class>
     
@@ -485,6 +925,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000056">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000036"/>
+        <rdfs:comment>Clothing worn durning the dance to help tell a story.</rdfs:comment>
         <rdfs:label xml:lang="en">Costume</rdfs:label>
     </owl:Class>
     
@@ -494,7 +935,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000057">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
-        <rdfs:label xml:lang="en">Peasant Shirt</rdfs:label>
+        <rdfs:comment>A style of shirt that has origins in European peasant clothing. Baggy fitting blouse.</rdfs:comment>
+        <rdfs:label xml:lang="en">PeasantShirt</rdfs:label>
     </owl:Class>
     
 
@@ -503,6 +945,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000058">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>A pieve of clothing that is worn around the upper body without sleeves.</rdfs:comment>
         <rdfs:label xml:lang="en">Vest</rdfs:label>
     </owl:Class>
     
@@ -512,6 +955,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000059">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>A piece of clothing that is worn by women that covers the shoulder and can be wrapped around the person.</rdfs:comment>
         <rdfs:label xml:lang="en">Shawl</rdfs:label>
     </owl:Class>
     
@@ -521,7 +965,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000060">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
-        <rdfs:label xml:lang="en">Head Dress</rdfs:label>
+        <rdfs:comment>A female head covering.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeadDress</rdfs:label>
     </owl:Class>
     
 
@@ -530,7 +975,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000061">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
-        <rdfs:label xml:lang="en">Peaseant Skirt</rdfs:label>
+        <rdfs:comment>A style of skirt that comes from European peasants. Very flowly.</rdfs:comment>
+        <rdfs:label xml:lang="en">PeaseantSkirt</rdfs:label>
     </owl:Class>
     
 
@@ -539,6 +985,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000062">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>A piece of clothing worn around the upper body.</rdfs:comment>
         <rdfs:label xml:lang="en">Shirt</rdfs:label>
     </owl:Class>
     
@@ -548,7 +995,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000063">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
-        <rdfs:label xml:lang="en">Breeches Coat</rdfs:label>
+        <rdfs:comment>A type of coat worn by men, it fits close to the body and comes to just below the waste.</rdfs:comment>
+        <rdfs:label xml:lang="en">BreechesCoat</rdfs:label>
     </owl:Class>
     
 
@@ -557,6 +1005,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000064">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>An item of clothing that goes on the head.</rdfs:comment>
         <rdfs:label xml:lang="en">Hat</rdfs:label>
     </owl:Class>
     
@@ -566,6 +1015,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000065">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>A piece of clothing that goes around the waste to keep clothing from falling down.</rdfs:comment>
         <rdfs:label xml:lang="en">Belt</rdfs:label>
     </owl:Class>
     
@@ -575,6 +1025,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000066">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000043"/>
+        <rdfs:comment>A piece of cloth that goes across ways over the upper body.</rdfs:comment>
         <rdfs:label xml:lang="en">Sashes</rdfs:label>
     </owl:Class>
     
@@ -584,6 +1035,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000073">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000041"/>
+        <rdfs:comment>Boots, black, with a slight heel often worn by men.</rdfs:comment>
         <rdfs:label xml:lang="en">Boots</rdfs:label>
     </owl:Class>
     
@@ -593,7 +1045,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000074">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000041"/>
-        <rdfs:label xml:lang="en">Small Heel Shoes</rdfs:label>
+        <rdfs:comment>Black shoes that have a heel about an inch to an inch and half high. generally worn by women.</rdfs:comment>
+        <rdfs:label xml:lang="en">SmallHeelShoes</rdfs:label>
     </owl:Class>
     
 
@@ -602,16 +1055,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000084">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
+        <rdfs:comment>Bedlah is a type of Egyptian style of costume that consists of specific clothing ideas.</rdfs:comment>
         <rdfs:label xml:lang="en">Bedlah</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000085 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000085">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
-        <rdfs:label xml:lang="en">Muwashshah</rdfs:label>
     </owl:Class>
     
 
@@ -620,7 +1065,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000086">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
-        <rdfs:label xml:lang="en">Fitted Top/Bra</rdfs:label>
+        <rdfs:comment>A fitted top/bra that is very fitted to the dancers upper body. Sometime has jewerly on it so when the chest moves it makes nose.</rdfs:comment>
+        <rdfs:label xml:lang="en">FittedTop/Bra</rdfs:label>
     </owl:Class>
     
 
@@ -629,7 +1075,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000087">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
-        <rdfs:label xml:lang="en">Fitted Hip Belt</rdfs:label>
+        <rdfs:comment>A belt that goes around the waste, and has jewerly on it so when the waste moves it makes nose.</rdfs:comment>
+        <rdfs:label xml:lang="en">FittedHipBelt</rdfs:label>
     </owl:Class>
     
 
@@ -638,7 +1085,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000088">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
-        <rdfs:label xml:lang="en">Full Length Skirt</rdfs:label>
+        <rdfs:comment>Full lenth skirt is a  piece of clothing that sits around that hips/waste that goes down to the floor.</rdfs:comment>
+        <rdfs:label xml:lang="en">FullLengthSkirt</rdfs:label>
     </owl:Class>
     
 
@@ -647,7 +1095,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000089">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000084"/>
-        <rdfs:label xml:lang="en">Harem Pants</rdfs:label>
+        <rdfs:comment>Hrem Pants are a style of baggy pants</rdfs:comment>
+        <rdfs:label xml:lang="en">HaremPants</rdfs:label>
     </owl:Class>
     
 
@@ -656,7 +1105,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000090">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
-        <rdfs:label xml:lang="en">Circle Skirt</rdfs:label>
+        <rdfs:comment>An article of clothing that sits on the hips or waste, and when spining it creates a large circle around the dancer.</rdfs:comment>
+        <rdfs:label xml:lang="en">CircleSkirt</rdfs:label>
     </owl:Class>
     
 
@@ -665,6 +1115,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000091">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
+        <rdfs:comment>A baggy style of pants.</rdfs:comment>
         <rdfs:label xml:lang="en">Pantalooms</rdfs:label>
     </owl:Class>
     
@@ -674,6 +1125,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000092">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
+        <rdfs:comment>A male head covering.</rdfs:comment>
         <rdfs:label xml:lang="en">Turban</rdfs:label>
     </owl:Class>
     
@@ -683,7 +1135,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000093">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
-        <rdfs:label xml:lang="en">Head Dress</rdfs:label>
+        <rdfs:comment>A female head covering.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeadDress</rdfs:label>
     </owl:Class>
     
 
@@ -692,6 +1145,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000094">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000048"/>
+        <rdfs:comment>Vail is a piece of clothing that covers the face.</rdfs:comment>
         <rdfs:label xml:lang="en">Vail</rdfs:label>
     </owl:Class>
     
@@ -701,7 +1155,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000095">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000047"/>
-        <rdfs:label xml:lang="en">Bare Feet</rdfs:label>
+        <rdfs:comment>No shoes or socks on ones feet.</rdfs:comment>
+        <rdfs:label xml:lang="en">BareFeet</rdfs:label>
     </owl:Class>
     
 
@@ -710,7 +1165,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000096">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000047"/>
-        <rdfs:label xml:lang="en">High Heels</rdfs:label>
+        <rdfs:comment>A pair of shoes often worn by woman to make them taller.</rdfs:comment>
+        <rdfs:label xml:lang="en">HighHeels</rdfs:label>
     </owl:Class>
     
 
@@ -719,7 +1175,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000097">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
-        <rdfs:label xml:lang="en">Arabic Music</rdfs:label>
+        <rdfs:comment>Arabic Music also called Arab Music, is the tradtional music from different areas of the Middle East.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArabicMusic</rdfs:label>
     </owl:Class>
     
 
@@ -728,7 +1185,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000098">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
-        <rdfs:label xml:lang="en">Tribal Fusion</rdfs:label>
+        <rdfs:comment>Tribal fusion music comes from America, and has mixed with techno music and world music to create it&apos;s own very distinicted style. This music is often used with American Tribal belly dance.</rdfs:comment>
+        <rdfs:label xml:lang="en">TribalFusion</rdfs:label>
     </owl:Class>
     
 
@@ -737,7 +1195,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000099">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
-        <rdfs:label xml:lang="en">Arabic Pop</rdfs:label>
+        <rdfs:comment>Arabic pop music is a sub class of pop music.</rdfs:comment>
+        <rdfs:label xml:lang="en">ArabicPop</rdfs:label>
     </owl:Class>
     
 
@@ -746,6 +1205,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000100">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
+        <rdfs:comment>Baladi is a falk style of music from Egypt, often used in Egpytian style of belly dancing.</rdfs:comment>
         <rdfs:label xml:lang="en">Baladi</rdfs:label>
     </owl:Class>
     
@@ -755,6 +1215,7 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000101">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
+        <rdfs:comment>Shaabi music is street music that comes from Egypt.</rdfs:comment>
         <rdfs:label xml:lang="en">Shaabi</rdfs:label>
     </owl:Class>
     
@@ -764,7 +1225,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000102">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000046"/>
-        <rdfs:label xml:lang="en">Middle Eastern</rdfs:label>
+        <rdfs:comment>Middle Eastern music, spans from Morocco to Iran. This encompases musical styles of North Africe, Arab countries and Perisan style (Iran and Iraq) music.</rdfs:comment>
+        <rdfs:label xml:lang="en">MiddleEastern</rdfs:label>
     </owl:Class>
     
 
@@ -773,7 +1235,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000103">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
-        <rdfs:label xml:lang="en">Egytian Raqus Sharqi</rdfs:label>
+        <rdfs:comment>Egyptian raqs sharqi belly dance is concidered to be classical Egyptian belly dance style.</rdfs:comment>
+        <rdfs:label xml:lang="en">EgytianRaqusSharqi</rdfs:label>
     </owl:Class>
     
 
@@ -782,7 +1245,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000104">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
-        <rdfs:label xml:lang="en">Egytian Baladi</rdfs:label>
+        <rdfs:comment>Baladi belly dance comes from Egypt, and is considered to be the folk belly dance from Egypt.</rdfs:comment>
+        <rdfs:label xml:lang="en">EgytianBaladi</rdfs:label>
     </owl:Class>
     
 
@@ -791,7 +1255,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000105">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
-        <rdfs:label xml:lang="en">Turkish Oriental</rdfs:label>
+        <rdfs:comment>Turkish oriental style of belly dance comes from Turkey and is often playful.</rdfs:comment>
+        <rdfs:label xml:lang="en">TurkishOriental</rdfs:label>
     </owl:Class>
     
 
@@ -800,7 +1265,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000106">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
-        <rdfs:label xml:lang="en">American Tribal Dance</rdfs:label>
+        <rdfs:comment>American Tribal dance is a modern style of belly dancing that was created in North America</rdfs:comment>
+        <rdfs:label xml:lang="en">AmericanTribalDance</rdfs:label>
     </owl:Class>
     
 
@@ -809,268 +1275,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000107">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000045"/>
-        <rdfs:label xml:lang="en">Tribal Fusion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000108 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000108">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000052"/>
-        <rdfs:label xml:lang="en">Jazz Bodysuit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000109 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000109">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000052"/>
-        <rdfs:label xml:lang="en">Tights</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000110 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000110">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000052"/>
-        <rdfs:label xml:lang="en">Leggings</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000111 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000111">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000052"/>
-        <rdfs:label xml:lang="en">Booty Shorts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000112 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000112">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Big Band</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000113 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000113">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Blue Note</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000114 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000114">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Contemporary Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000115 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000115">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Cool Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000116 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000116">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Crossover Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000117 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000117">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Dixieland</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000118 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000118">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Ethio-Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000119 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000119">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Fusion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000120 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000120">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Hard Bop</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000121 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000121">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Latin Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000122 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000122">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Mainstream Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000123 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000123">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Rag Time</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000124 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000124">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Smooth Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000125 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000125">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Trad Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000126 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000126">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Acid Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000127 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000127">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000051"/>
-        <rdfs:label xml:lang="en">Avant-Grande Jazz</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000128 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000128">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
-        <rdfs:label xml:lang="en">Jazz Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000129 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000129">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
-        <rdfs:label xml:lang="en">High Rise Jazz Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000130 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000130">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
-        <rdfs:label xml:lang="en">Low Rise Jazz Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000131 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000131">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
-        <rdfs:label xml:lang="en">Slip-ons Jazz Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000132 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000132">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000050"/>
-        <rdfs:label xml:lang="en">Lace-up Oxford Jazz Shoes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000133 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000133">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000049"/>
-        <rdfs:label xml:lang="en">Tap</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000134 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000134">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000049"/>
-        <rdfs:label xml:lang="en">Jitter Bug</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000135 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000135">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000049"/>
-        <rdfs:label xml:lang="en">Swing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000136 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000136">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000049"/>
-        <rdfs:label xml:lang="en">Black Bottom</rdfs:label>
+        <rdfs:comment>Tribal fusion belly dance is a modern belley dance style. Combining American tribal belly dancing and American Cabaret style of dances.</rdfs:comment>
+        <rdfs:label xml:lang="en">TribalFusion</rdfs:label>
     </owl:Class>
     
 
@@ -1079,7 +1285,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000138">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000056"/>
-        <rdfs:label xml:lang="en">Ballet Bodysuit</rdfs:label>
+        <rdfs:comment>A piece of clothing that is form fitting that covers the body. Ballet body suit can have long sleeves, short sleeves or a tank-top style sleeve. Often made from different colour materials and different types materials.</rdfs:comment>
+        <rdfs:label xml:lang="en">BalletBodysuit</rdfs:label>
     </owl:Class>
     
 
@@ -1088,7 +1295,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000139">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000056"/>
-        <rdfs:label xml:lang="en">Ballet Tights</rdfs:label>
+        <rdfs:comment>A thick type of tights usually in the ballet pink tone.</rdfs:comment>
+        <rdfs:label xml:lang="en">BalletTights</rdfs:label>
     </owl:Class>
     
 
@@ -1097,25 +1305,8 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000145">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
-        <rdfs:label xml:lang="en">Ballet Classical</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000146 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000146">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
-        <rdfs:label xml:lang="en">Mazurka</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000147 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000147">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
-        <rdfs:label xml:lang="en">Czárdás</rdfs:label>
+        <rdfs:comment>Ballet classica is classical intrumental music.</rdfs:comment>
+        <rdfs:label xml:lang="en">BalletClassical</rdfs:label>
     </owl:Class>
     
 
@@ -1124,17 +1315,12 @@
 
     <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000148">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
+        <rdfs:comment>Classical music with Itlian language diaphragm singing.</rdfs:comment>
         <rdfs:label xml:lang="en">Opera</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.pizza.owl/ontologies/PIZZA_0000149 -->
-
-    <owl:Class rdf:about="http://www.pizza.owl/ontologies/PIZZA_0000149">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/ontologies/PIZZA_0000055"/>
-        <rdfs:label xml:lang="en">Tarantella</rdfs:label>
-    </owl:Class>
+    <rdf:Description>
+        <rdfs:comment>A form of expressive movement usually done to music.</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
